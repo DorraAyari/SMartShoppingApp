@@ -13,9 +13,6 @@ public class category {
     @SerializedName("nomCat")
     @Expose
     private String nomCat;
-    @SerializedName("idtransaction")
-    @Expose
-    private int idtransaction;
 
     public category(){
 
@@ -43,12 +40,5 @@ public class category {
         this.nomCat = nomCat;
     }
 
-    public int getIdtransaction() {
-        return idtransaction;
-    }
-
-    public void setIdtransaction(int idtransaction) {
-        this.idtransaction = idtransaction;
-    }
 
 }

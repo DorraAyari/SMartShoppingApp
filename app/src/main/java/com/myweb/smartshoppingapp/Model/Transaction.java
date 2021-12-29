@@ -107,12 +107,5 @@ public class Transaction {
         this.nomCat = nomCat;
     }
 
-    public int getIdcategory() {
-        return idcategory;
-    }
-
-    public void setIdcategory(int idcategory) {
-        this.idcategory = idcategory;
-    }
 
 }
