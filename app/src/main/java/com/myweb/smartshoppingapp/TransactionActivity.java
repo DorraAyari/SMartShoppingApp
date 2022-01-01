@@ -364,5 +364,8 @@ public class TransactionActivity extends AppCompatActivity {
         return "January";
 
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
 }

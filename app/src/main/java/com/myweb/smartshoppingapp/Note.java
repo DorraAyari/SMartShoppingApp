@@ -1,58 +1,41 @@
 package com.myweb.smartshoppingapp;
 
 import android.app.Activity;
-import android.app.Notification;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import com.myweb.smartshoppingapp.Model.Transaction;
-import com.myweb.smartshoppingapp.Model.category;
-import com.myweb.smartshoppingapp.Utils.Apis;
-import com.myweb.smartshoppingapp.Utils.CatService;
-import com.myweb.smartshoppingapp.Utils.TransactionService;
 import com.myweb.smartshoppingapp.ui.login.LoginActivity;
 import com.myweb.smartshoppingapp.util.projectconstant;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-public class list extends AppCompatActivity {
-    TransactionService personneService;
-    List<Transaction> listPersonne = new ArrayList<>();
-    ArrayAdapter<Transaction> listt;
-    ListView listView;
+public class Note extends AppCompatActivity {
+EditText et_text;
+Button bt_add;
+ListView list_view;
+DatabaseHelper databaseHelper;
+ArrayList arrayList;
+ArrayAdapter arrayAdapter;
     DrawerLayout drawerLayout;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor myEdit;
     TextView loginn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activty_list);
-
+        setContentView(R.layout.activity_note);
         drawerLayout=findViewById(R.id.drawer_layout);
         loginn=findViewById(R.id.loginn);
 
@@ -60,28 +43,37 @@ public class list extends AppCompatActivity {
         if (!sharedPreferences.getBoolean(projectconstant.IS_LOGIN,false)){
             goTologin();
         }
-
-        listView = (ListView) findViewById(R.id.listView);
-
-        listPersonne();
-
-        FloatingActionButton fab = findViewById(R.id.fabe);
-        fab.setOnClickListener(new View.OnClickListener() {
+        et_text=findViewById(R.id.et_text);
+        bt_add=findViewById(R.id.bt_add);
+        list_view=findViewById(R.id.list_view);
+        databaseHelper =new DatabaseHelper(Note.this);
+        arrayList=databaseHelper.getAllText();
+        arrayAdapter =new ArrayAdapter(Note.this,
+                android.R.layout.simple_list_item_1,arrayList);
+        list_view.setAdapter(arrayAdapter);
+        bt_add.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(list.this, TransactionActivity.class);
-                intent.putExtra("ID", "");
-                intent.putExtra("Montant", "");
-                intent.putExtra("description", "");
-                intent.putExtra("day", "");
-                startActivity(intent);
+            public void onClick(View v) {
+                String text=et_text.getText().toString();
+                if(!text.isEmpty()){
+                    if(databaseHelper.addText(text)){
+                        et_text.setText("");
+                        Toast.makeText(getApplicationContext(),"Data Inserted ...",Toast.LENGTH_SHORT).show();
+                        arrayList.clear();
+                        arrayList.addAll(databaseHelper.getAllText());
+                        arrayAdapter.notifyDataSetChanged();
+                        list_view.invalidateViews();
+                        list_view.refreshDrawableState();
+
+                    }
+                }
+
             }
         });
 
     }
-
     void goTologin(){
-        Intent i=new Intent(list.this, LoginActivity.class);
+        Intent i=new Intent(Note.this, LoginActivity.class);
         startActivity(i);
         finish();
     }
@@ -105,6 +97,18 @@ public class list extends AppCompatActivity {
     public void ClickHome(View view){
         redirectActivity(this,MainActivity.class);
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
+    public void ClickLogout(View view){
+        myEdit = sharedPreferences.edit();
+        myEdit.putBoolean(projectconstant.IS_LOGIN, false);
+        myEdit.commit();
+
+        goTologin();
+
+    };
+
     public void ClickDashboard(View view){
         redirectActivity(this,maps.class);
     }
@@ -115,18 +119,14 @@ public class list extends AppCompatActivity {
         redirectActivity(this,list.class);
     }
     public void ClickCat(View view){
-        redirectActivity(this,CatMain.class);
+        redirectActivity(this, CatMain.class);
     }
 
     public void ClickStat(View view){
         redirectActivity(this,MainActivity4.class);
     }
-
     public void ClickCalculator(View view){
         redirectActivity(this,CalculatorActivity.class);
-    }
-    public void CLickNote(View view){
-        redirectActivity(this,Note.class);
     }
 
     public static void redirectActivity(Activity activity, Class aClass) {
@@ -138,25 +138,5 @@ public class list extends AppCompatActivity {
     protected void onPause(){
         super.onPause();
         closeDrawer(drawerLayout);
-    }
-    public void listPersonne() {
-        personneService = Apis.getTransactionService();
-        Call<List<Transaction>> call = personneService.gettransaction() ;
-
-        call.enqueue(new Callback<List<Transaction>>() {
-            @Override
-            public void onResponse(Call<List<Transaction>> call, Response<List<Transaction>> response) {
-                if (response.isSuccessful()) {
-                    listPersonne = response.body();
-         listView.setAdapter(new TransactionAdapter(list.this, R.layout.content_main, listPersonne));
-
-                }
-            }
-
-            @Override
-            public void onFailure(Call<List<Transaction>> call, Throwable t) {
-                Log.e("Error:", t.getMessage());
-            }
-        });
     }
 }

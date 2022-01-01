@@ -110,6 +110,9 @@ GoogleMap map;
         super.onPause();
         closeDrawer(drawerLayout);
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
     public void ClickDashboard(MenuItem item) {
         Intent i=new Intent(maps.this, TransactionActivity.class);

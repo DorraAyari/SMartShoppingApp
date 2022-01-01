@@ -144,6 +144,9 @@ public class CalendarActivity extends AppCompatActivity implements CalendarAdapt
         CalendarUtils.selectedDate = CalendarUtils.selectedDate.plusMonths(1);
         setMonthView();
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override

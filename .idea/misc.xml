@@ -44,11 +44,12 @@
         <entry key="app/src/main/res/layout/activity_daily_calendar.xml" value="0.21829710144927536" />
         <entry key="app/src/main/res/layout/activity_event_edit.xml" value="0.21829710144927536" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.14719202898550723" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.12284701114488349" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.13020833333333334" />
         <entry key="app/src/main/res/layout/activity_main4.xml" value="0.115625" />
         <entry key="app/src/main/res/layout/activity_main5.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/activity_note.xml" value="0.2552083333333333" />
         <entry key="app/src/main/res/layout/activity_notifcation.xml" value="0.21422101449275363" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_test_line_chart_main.xml" value="0.1609375" />

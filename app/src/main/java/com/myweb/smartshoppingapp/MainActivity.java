@@ -205,6 +205,9 @@ EditText editText;
     public void ClickHome(View view){
         redirectActivity(this,MainActivity.class);
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
     public void ClickLogout(View view){
       myEdit = sharedPreferences.edit();
         myEdit.putBoolean(projectconstant.IS_LOGIN, false);

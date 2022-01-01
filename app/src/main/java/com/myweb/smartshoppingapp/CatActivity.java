@@ -199,6 +199,9 @@ public class CatActivity extends AppCompatActivity {
     public void ClickHome(View view){
         redirectActivity(this,MainActivity.class);
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
     public void ClickDashboard(View view){
         redirectActivity(this,maps.class);

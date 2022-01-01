@@ -150,6 +150,9 @@ public class CatMain extends AppCompatActivity {
     public void ClickStat(View view){
         redirectActivity(this,MainActivity4.class);
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
     public void ClickCalculator(View view){
         redirectActivity(this,CalculatorActivity.class);

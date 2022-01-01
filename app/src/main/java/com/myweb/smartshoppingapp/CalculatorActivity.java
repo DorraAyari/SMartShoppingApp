@@ -352,6 +352,9 @@ public class CalculatorActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+    public void CLickNote(View view){
+        redirectActivity(this,Note.class);
+    }
 
     public void ClickMenu(View view){
         openDrawer(drawerLayout);
