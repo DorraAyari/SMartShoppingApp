@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+
+
+    <color name="purple_700">#AEAEAE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="themeColor">#11CFC5</color>
+    <color name="darkTextColor">#020000</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="register_bk_color">#11CFC5</color>
+    <color name="login_bk_color">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="primaryTextColor">#11CFC5</color>
+    <color name="colorAccent">#11CFC5</color>
+    <color name="lightGray">#EEE</color>
+    <color name="gray">#888</color>
+    <color name="blue">#0000FF</color>
+    <color name="colorPrimary">#ede7f6</color>
+    <color name="colorSplash">#623586</color>
+    <color name="colorSplash0">#A24FE7</color>
+    <color name="colorShape1">#00000000</color>
+    <color name="colorShape2">#34000000</color>
+    <color name="colorShape3">#B4000000</color>
+    <color name="colorCode1">#3D5069</color>
+    <color name="colorCode2">#2E6197</color>
+    <color name="colorCode22">#2A3c58</color>
+    <color name="colorCode3">#122036</color>
+    <color name="colorCode4">#4C4955</color>
+    <color name="colorFacebook">#3b5998</color>
+    <color name="colorTwitter">#1da1f2</color>
+    <color name="colorInstagram">#cd486b</color>
+    <color name="colorSplash2">#381766</color>
+    <color name="colorSoftBlue2">#9AC3E9</color>
+    <color name="colorFade">#EB6E70</color>
+    <color name="colorSky">#4C95B5</color>
+    <color name="colorCode5">#4F6074</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSoftBeige">#CE6E61</color>
+    <color name="colorSoftBlue">#81A2BE</color>
+    <color name="colorSoftGreen">#9DCC89</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+
+    <color name="colorPrimaryLite">#4f5b62</color>
+
+    <color name="colorSecondaryDark">#002f6c</color>
+    <color name="colorSecondaryLite">#4f83cc</color>
+    <color name="colorTextonPrimary">#ffffff</color>
+    <color name="colorTextonSecondary">#ffffff</color></resources>

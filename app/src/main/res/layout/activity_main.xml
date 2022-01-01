@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/colorPrimary"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/main_toolbar"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/vibur"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="Welcome to manager money"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/loginn"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/vibur"
+            android:text="Hello World!"
+            android:textSize="24dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/itemImgRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+android:background="@color/teal_200"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.coordinatorlayout.widget.CoordinatorLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="179dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:cropToPadding="true"
+                      />
+
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+                <RelativeLayout
+                    android:layout_width="364dp"
+                    android:layout_height="251dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="347dp"
+                        android:layout_height="223dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/vibur"
+                        android:paddingLeft="10dp"
+                        android:text="@string/navidea"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="605dp"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shadow_view" />
+
+        <!--bottom navigation-->
+        <include
+            android:id="@+id/include"
+            layout="@layout/bottom_navigation_view" />
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

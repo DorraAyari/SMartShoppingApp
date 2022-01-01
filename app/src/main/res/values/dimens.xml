@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_bottom_margin">72dp</dimen>
+
+    <dimen name="activity_calculator_display_text_size">56sp</dimen>
+    <dimen name="activity_calculator_display_padding">8dp</dimen>
+    <dimen name="activity_calculator_button_text_size">30sp</dimen>
+
+</resources>

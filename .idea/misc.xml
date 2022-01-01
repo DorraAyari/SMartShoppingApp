@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.19074074074074074" />
+        <entry key="app/src/main/res/drawable-v24/ic_dashboard.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable-v24/ic_google_plus.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1453125" />
+        <entry key="app/src/main/res/drawable-v24/outline_trending_down_24.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable-v24/outline_trending_up_24.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable-v24/shadow_view.xml" value="0.26296296296296295" />
+        <entry key="app/src/main/res/drawable/btn_background.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/drawable/button_background_blue.xml" value="0.14635416666666667" />
+        <entry key="app/src/main/res/drawable/card_edge.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable/gradient_about.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_about.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_add_img.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_back_img.xml" value="0.1390625" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_login_hero.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_more.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_next.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_notifications.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/drawable/ic_pause.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_prev.xml" value="0.26875" />
+        <entry key="app/src/main/res/drawable/ic_register_hero.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_side_bg.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/outline_account_balance_wallet_24.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable/outline_tag_24.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/activity_budget_pie_chart.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_cat.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_chart.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/layout/activity_chart_common.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/activity_daily_calendar.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_event_edit.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.14719202898550723" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.12284701114488349" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/activity_notifcation.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_test_line_chart_main.xml" value="0.1609375" />
+        <entry key="app/src/main/res/layout/activity_week_view.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activty_list.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/bottom_navigation_view.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/calendar_cell.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/cat_layout.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/content_cat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/contentt_main.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/event_cell.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/fragment_budget_analysis.xml" value="0.18125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_month_stats.xml" value="0.12864583333333332" />
+        <entry key="app/src/main/res/layout/home_features_grid.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/hour_cell.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/layout_panel_calculator.xml" value="0.17980072463768115" />
+        <entry key="app/src/main/res/layout/list.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/main_nav_drawer2.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/main_toolbar.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/maps.xml" value="0.1296875" />
+        <entry key="app/src/main/res/layout/personne_layout.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/menu_basic.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/menu_home.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/menu_navigation_drawer.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.1609375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26461538461538464" />
+        <entry key="app/src/main/res/xml/searchable.xml" value="0.1609375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">SMartShoppingApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="UserName">username</string>
+    <string name="appnme"><u>Smart Shopphing App</u></string>
+    <string name="appregi"><u>Registration</u></string>
+    <string name="PassWord">password</string>
+    <string name="ConPassWord">Confirm password</string>
+    <string name="nawm">FullName</string>
+    <string name="MoNo">Mobile No</string>
+
+    <string name="Add">Address</string>
+    <string name="navidea">Money Manager, easy-to-use personal finance.
+      helps organize one\'s finances
+        and keeps track of where,
+        when and how the money goes.\n</string>
+    <string name="dob">DOB</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pin">Pin Code</string>
+    <string name="nav_reg"> <u>For Registration?</u> </string>
+    <string name="nav_login"> <u>Already Register?</u> </string>
+    <string name="channel_name">Channel name</string>
+    <string name="channel_description">Channel description</string>
+    <string name="snooze">Snooze</string>
+    <string name="page1">page1</string>
+    <string name="page2">page2</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="close">Close</string>
+    <string name="transactions_count">Transaction count</string>
+    <string name="summary">Summary</string>
+    <string name="main_page">Min Page</string>
+    <string name="expenses">expenses</string>
+    <string name="incomes">incomes</string>
+    <string name="monthly_statistics">monthly statistics</string>
+    <string name="add_expense">add expense</string>
+    <string name="edit">edit</string>
+    <string name="null_string">null string</string>
+    <string name="hint_name">hint name</string>
+    <string name="hint_price">hint_price</string>
+    <string name="hint_date">hint_date</string>
+    <string name="month_stats">month_stats</string>
+    <string name="search">search</string>
+    <string name="share">share</string>
+    <string name="send">send</string>
+    <string name="name">name</string>
+    <string name="category">category</string>
+    <string name="date">Data</string>
+    <string name="search_title">search_title</string>
+    <string name="search_hint">search_hint</string>
+    <string name="hello_world">hello_world</string>
+
+</resources>
